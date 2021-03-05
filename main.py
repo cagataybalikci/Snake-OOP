@@ -10,9 +10,17 @@ screen.bgcolor("black")
 screen.title("Snake Game")
 screen.tracer(0)
 
-# Creation of Snake Body
-
+# Creation of Snake Object
 snake = Snake()
+
+# Control the snake by inputs
+screen.listen()
+screen.onkey(snake.up, "Up")
+screen.onkey(snake.down, "Down")
+screen.onkey(snake.left, "Left")
+screen.onkey(snake.right, "Right")
+
+# Game
 
 game_is_on = True
 

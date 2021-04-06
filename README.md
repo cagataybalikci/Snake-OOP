@@ -1,5 +1,5 @@
 # Snake-OOP
-Usin Python's Turtle module a snake game created for the what I learned about OOP.
+Using Python's Turtle module a snake game created for the what I learned about OOP.
 
 ## Built With
 
